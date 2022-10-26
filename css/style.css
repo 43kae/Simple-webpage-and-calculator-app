@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(166, 177, 235, 0.842);
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 20px;
+}
+nav {
+	position: sticky;
+    border: 1px solid #c3c3c3;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+    background: #9042f5;
+   }
+
+.nav__item {
+		display: inline-block;
+		margin: 0px 30px;
+	}    
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    }
+h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+p {
+    display:flex;
+    align-items: center;
+}
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #d8daf1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input, select {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 0.5em;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #5f71d6;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  button {
+    list-style: none;
+    text-decoration: none;
+    color: #4362df;
+    font-size: 16px;
+  }
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+    background: #32b6c7;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #4caf50;
+    text-decoration: none;
+  }

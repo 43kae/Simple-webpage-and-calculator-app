@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"></a>
+    <title>Register</title>
+</head>
+<body>
+    <header>
+      <nav class="nav">
+        <ul>
+          <li class="nav__item"><a href="index.html">Home</a></li>
+          <li class="nav__item"><a href="contact.html">Contact</a></li>
+          <li class="nav__item"><a href="login.html">Login</a></li>
+          <li class="nav__item"><a href="register.html">Register</a></li>
+          <li class="nav__item"><a href="calc.html">Calculator</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Register</h1>
+    <div id="register">
+    <form class="form">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="phone">Phone No.:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="gender">Gender:</label><br>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="non_binary">Non-Binary</option>
+        <option value="pnts">Prefer not to say</option>
+        </select>
+        <br><br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country"><br><br>
+        <label for="state">State/Province:</label>
+        <input type="text" id="state" name="state"><br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" id="cpassword" name="cpasswprd"><br><br>
+        <button type="button">Register</button>
+    </form>
+    </div>
+</body>
+</html>
