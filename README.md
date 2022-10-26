@@ -1,1 +1,1 @@
-# Simple-webpage-and-calculator-app
+# Simple webpage and calculator app
